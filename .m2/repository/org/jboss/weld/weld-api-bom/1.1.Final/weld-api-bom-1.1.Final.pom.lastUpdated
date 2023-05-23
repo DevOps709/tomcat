@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon May 22 09:57:37 UTC 2023
+http\://0.0.0.0/.error=Could not transfer artifact org.jboss.weld\:weld-api-bom\:pom\:1.1.Final from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [jboss-public-repository-group (http\://repository.jboss.org/nexus/content/groups/public, default, releases+snapshots), jboss-snapshots-repository (http\://repository.jboss.org/nexus/content/groups/public, default, snapshots)]
+https\://repo.maven.apache.org/maven2/.lastUpdated=1684749457576
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1684749457559

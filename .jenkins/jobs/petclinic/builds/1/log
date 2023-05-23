@@ -1,0 +1,28 @@
+Started by user [8mha:////4L5ClMncEMSZQsQLiKOFisiM2e/vg+kXQXlZ9TXrUZ/9AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZ+/dLi1CL9gqLE4ozEvJIMADd+iLbEAAAA[0mg prashanth
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/petclinic
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository git@github.com:DevOps709/thymeleaf-petclinic.git
+ > git init /root/.jenkins/workspace/petclinic # timeout=10
+Fetching upstream changes from git@github.com:DevOps709/thymeleaf-petclinic.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- git@github.com:DevOps709/thymeleaf-petclinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:DevOps709/thymeleaf-petclinic.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse origin/master^{commit} # timeout=10
+Checking out Revision 59db28e9310f621731d3cf37d943d8a9c72a6cd3 (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 59db28e9310f621731d3cf37d943d8a9c72a6cd3 # timeout=10
+Commit message: "added project"
+First time build. Skipping changelog.
+[petclinic] $ mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< thymeleafexamples:petclinic >---------------------
+[INFO] Building petclinic 20140513
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
